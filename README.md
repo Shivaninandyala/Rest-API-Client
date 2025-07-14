@@ -30,5 +30,5 @@ This Java application consumes the OpenWeatherMap REST API and displays weather 
 3. Compile and run:
 
 ```bash
-javac -cp ".;json-20210307.jar" src/WeatherApp.java
-java -cp ".;json-20210307.jar;src" WeatherApp
+javac -cp ".;json-20210307.jar" WeatherApp.java
+java -cp ".;json-20210307.jar;" WeatherApp
